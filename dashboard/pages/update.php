@@ -6,10 +6,10 @@ include "action.php";
 $id = $_POST['id'];
 $table = $_POST['table'];
 
-print_r($_POST);
-echo "<br>";
-print_r($_FILES);
-echo "<br>";
+// print_r($_POST);
+// echo "<br>";
+// print_r($_FILES);
+// echo "<br>";
 $places = "";
 $hasImage = false;
 
@@ -49,11 +49,11 @@ if(isset($_POST['submit'])){
       add_param('image', $query, $places, $params, $targetFile);
     }
   }
-  print_r($params);
+  // print_r($params);
   $query = substr($query, 0, -2); 
   $query = $query . " WHERE id=?";
   $places = $places . "i"; 
-  echo $query;
+  // echo $query;
   $params[] = $id;
   if($hasImage && $check !== false)
     move_uploaded_file($_FILES['image']['tmp_name'], $targetFile);
