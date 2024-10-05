@@ -1,0 +1,32 @@
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">name</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">description</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">brand</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">categories</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">tax</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">tags</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">price</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">specialPrice</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">sku</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">stock</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">media</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">attributes</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">metaTitle</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">metaDescription</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">status</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">virtual</th>
+echo "<td>{$row['name']}</td>";
+echo "<td>{$row['description']}</td>";
+echo "<td>{$row['brand']}</td>";
+echo "<td>{$row['categories']}</td>";
+echo "<td>{$row['tax']}</td>";
+echo "<td>{$row['tags']}</td>";
+echo "<td>{$row['price']}</td>";
+echo "<td>{$row['specialPrice']}</td>";
+echo "<td>{$row['sku']}</td>";
+echo "<td>{$row['stock']}</td>";
+echo "<td>{$row['media']}</td>";
+echo "<td>{$row['attributes']}</td>";
+echo "<td>{$row['metaTitle']}</td>";
+echo "<td>{$row['metaDescription']}</td>";
+echo "<td>{$row['status']}</td>";
+echo "<td>{$row['virtual']}</td>";

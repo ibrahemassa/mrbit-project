@@ -1,0 +1,12 @@
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">customerName</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">customerEmail</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">status</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">total</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">productsId</th>
+<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">usersId</th>
+echo "<td>{$row['customerName']}</td>";
+echo "<td>{$row['customerEmail']}</td>";
+echo "<td>{$row['status']}</td>";
+echo "<td>{$row['total']}</td>";
+echo "<td>{$row['productsId']}</td>";
+echo "<td>{$row['usersId']}</td>";

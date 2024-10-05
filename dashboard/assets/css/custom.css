@@ -1,0 +1,42 @@
+/* td, th { */
+   /* width: 500px; */
+  /* width: 25%; */
+/* } */
+
+img.db-image{
+  width: 150px;
+  height: 80px;
+}
+
+/* padding: 10px; */
+/**/
+/* table.db-elements { */
+/*   display: flex; */
+/*   flex-wrap: wrap; */
+/* } */
+/**/
+/* table.db-elements td, table.db-elements th{ */
+/*   flex: 1 1 150px; */
+/*   min-width: 150px; */
+/*   border: 1px solid #f2a5f8; */
+/* } */
+
+table.db-elements {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    text-align: center;
+}
+
+
+table.db-elements th, table.db-elements td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+table.db-elements tr td,
+table.db-elements tr {
+    border: 1px solid #dddddd; /* Ensures borders for the last row */
+}
